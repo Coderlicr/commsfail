@@ -30,4 +30,4 @@ jobs:
         run: |
           pip wheel --no-deps -w /tmp/wheel .
           python -m zipfile -l /tmp/wheel/commsfail-*.whl | grep -q 'annotators/regex_v1/schema.json'
-          python -m zipfile -l /tmp/wheel/commsfail-*.whl | grep -q 'annotators/_template/test_template.py.txt'
+          python -m zipfile -l /tmp/wheel/commsfail-*.whl | grep -q 'annotators/example_kickstart/test_example_kickstart.py.txt'
