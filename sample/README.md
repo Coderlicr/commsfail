@@ -14,3 +14,8 @@ remain in [`tests/fixtures/`](../tests/fixtures/README.md).
 Goal Run records with two, three, or four Codex agents. This is a local,
 byte-preserving selection of core logs, with a SHA-256 manifest. See its
 README for the included evidence and known message-linking limitations.
+
+[yj multi-agent traces, 2026-10-15](yj-2026-10-15/README.md) contains three
+Goal Run records with two, three, and four Codex agents, one run per configuration.
+It includes core logs, task instructions, and a SHA-256 manifest. See its README
+for validation results and known parser limitations.
